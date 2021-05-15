@@ -9,7 +9,7 @@ import poketmon
 import budget
 
 if __name__ == '__main__':
-    
+    print("==========main start==========")
     #프로그래머스 레벨1 포켓몬 문제
     #poketmon_nums = [3,3,3,2,2,4]
     #poketmon.solution(poketmon_nums)
