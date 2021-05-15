@@ -8,9 +8,14 @@
 import poketmon
 import budget
 import 음양더하기
+import 소수만들기
 
 if __name__ == '__main__':
     print("==========main start==========")
+
+    # 프로그래머스 레벨1 소수 만들기 문제
+    nums = [1,2,3,4]
+    소수만들기.solution(nums)
 
     # 프로그래머스 레벨1 음양더하기기문제
     # absolutes = [4,7,12]
