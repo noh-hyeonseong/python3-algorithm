@@ -10,6 +10,7 @@ import budget
 import 음양더하기
 import 소수만들기
 import 내적
+import 로또순위
 
 if __name__ == '__main__':
     print("==========main start==========")
@@ -36,3 +37,9 @@ if __name__ == '__main__':
     #budget_d = [1,3,2,5,4]
     #budget_budget = 9
     #budget.solution(budget_d,budget_budget)
+
+    # 프로그래머스 레벨1 로또의 최고 순위와 최저 순위 문제
+    lottos = [44, 1, 0, 0, 31, 25]
+    win_nums = [31, 10, 45, 1, 6, 19]
+    로또순위.solution(lottos,win_nums)
+
