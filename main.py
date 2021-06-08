@@ -14,6 +14,7 @@ import 로또순위
 import 신규아이디추천
 import 키패드누르기
 import 약수의개수와덧셈
+import 실패율
 
 if __name__ == '__main__':
     print("==========main start==========")
@@ -55,7 +56,12 @@ if __name__ == '__main__':
     # hand = "right"
     # 키패드누르기.solution(numbers, hand)
 
-    # 프로그래머스 레벨1 약수의 개수와 덧셈 누르기
+    # 프로그래머스 레벨1 약수의 개수와 덧셈 문제
     # left = 13
     #right = 17
     # 약수의개수와덧셈.solution(left, right)
+
+    # 프로그래머스 레벨1 실패율 문제
+    N = 5
+    stages = [2,1,2,4,2,4,3,3]
+    실패율.solution(N, stages)
