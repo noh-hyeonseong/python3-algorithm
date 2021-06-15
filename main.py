@@ -15,6 +15,7 @@ import 신규아이디추천
 import 키패드누르기
 import 약수의개수와덧셈
 import 실패율
+import 비밀지도
 
 if __name__ == '__main__':
     print("==========main start==========")
@@ -62,6 +63,12 @@ if __name__ == '__main__':
     # 약수의개수와덧셈.solution(left, right)
 
     # 프로그래머스 레벨1 실패율 문제
-    N = 5
-    stages = [2,1,2,4,2,4,3,3]
-    실패율.solution(N, stages)
+    # N = 5
+    # stages = [2,1,2,4,2,4,3,3]
+    # 실패율.solution(N, stages)
+
+    # 프로그래머스 레벨1 [1차]비밀지도 문제
+    n = 5
+    arr1 = [9, 20, 28, 18, 11]
+    arr2 = [30, 1, 21, 17, 28]
+    비밀지도.solution(n, arr1, arr2)
