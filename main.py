@@ -16,6 +16,7 @@ import 키패드누르기
 import 약수의개수와덧셈
 import 실패율
 import 비밀지도
+import 다트게임
 
 if __name__ == '__main__':
     print("==========main start==========")
@@ -68,7 +69,11 @@ if __name__ == '__main__':
     # 실패율.solution(N, stages)
 
     # 프로그래머스 레벨1 [1차]비밀지도 문제
-    n = 5
-    arr1 = [9, 20, 28, 18, 11]
-    arr2 = [30, 1, 21, 17, 28]
-    비밀지도.solution(n, arr1, arr2)
+    # n = 5
+    # arr1 = [9, 20, 28, 18, 11]
+    # arr2 = [30, 1, 21, 17, 28]
+    # 비밀지도.solution(n, arr1, arr2)
+
+    # 프로그래머스 레벨1 [1차]다트 게임임 문제    # n = 5
+    # dartResult = "1D2S#10S"
+    # 다트게임.solution(dartResult)
