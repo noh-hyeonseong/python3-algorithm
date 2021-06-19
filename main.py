@@ -18,6 +18,7 @@ import 실패율
 import 비밀지도
 import 다트게임
 import 두정수사이의합
+import 문자열내마음대로정렬하기
 
 if __name__ == '__main__':
     print("==========main start==========")
@@ -80,6 +81,11 @@ if __name__ == '__main__':
     # 다트게임.solution(dartResult)
 
     # 프로그래머스 레벨1 두정수사이의합 문제
-    a = 3
-    b = 5
-    두정수사이의합.solution(a,b)
+    # a = 3
+    # b = 5
+    # 두정수사이의합.solution(a,b)
+
+    # 프로그래머스 레벨1 문자열 내 마음대로 정렬하기기 문제    # a = 3
+    strings = ["abce", "abcd", "cdx"]
+    n = 2
+    문자열내마음대로정렬하기.solution(strings, n)
