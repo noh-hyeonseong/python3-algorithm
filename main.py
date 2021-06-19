@@ -5,8 +5,8 @@
 # The function is expected to return a STRING_ARRAY.
 # The function accepts 2D_STRING_ARRAY arr as parameter.
 #
-import poketmon
-import budget
+import 폰켓몬
+import 예산
 import 음양더하기
 import 소수만들기
 import 내적
