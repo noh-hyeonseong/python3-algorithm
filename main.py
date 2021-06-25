@@ -5,6 +5,7 @@
 # The function is expected to return a STRING_ARRAY.
 # The function accepts 2D_STRING_ARRAY arr as parameter.
 #
+import 소수찾기
 import 폰켓몬
 import 예산
 import 음양더하기
@@ -96,6 +97,10 @@ if __name__ == '__main__':
     # s = "pPoooyY"
     # 문자열내p와y의개수.solution(s)
 
-    # 프로그래머스 레벨1 서울에서 김서방 찾기기 문제
-    seoul = ["Jane", "Kim"]
-    서울에서김서방찾기.solution(seoul)
+    # 프로그래머스 레벨1 서울에서 김서방 찾기 문제
+    # seoul = ["Jane", "Kim"]
+    # 서울에서김서방찾기.solution(seoul)
+
+    # 프로그래머스 레벨1 소수 찾기 문제
+    n = 10
+    소수찾기.solution(n)
