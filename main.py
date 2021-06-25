@@ -6,6 +6,7 @@
 # The function accepts 2D_STRING_ARRAY arr as parameter.
 #
 import 소수찾기
+import 시저암호
 import 폰켓몬
 import 예산
 import 음양더하기
@@ -102,5 +103,10 @@ if __name__ == '__main__':
     # 서울에서김서방찾기.solution(seoul)
 
     # 프로그래머스 레벨1 소수 찾기 문제
-    n = 10
-    소수찾기.solution(n)
+    # n = 10
+    # 소수찾기.solution(n)
+    
+    # 프로그래머스 레벨1 시저암호 찾기 문제
+    s = "AB"
+    n = 1
+    시저암호.solution(s, n)
