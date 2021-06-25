@@ -20,6 +20,7 @@ import 다트게임
 import 두정수사이의합
 import 문자열내마음대로정렬하기
 import 문자열내p와y의개수
+import 서울에서김서방찾기
 
 if __name__ == '__main__':
     print("==========main start==========")
@@ -92,5 +93,9 @@ if __name__ == '__main__':
     # 문자열내마음대로정렬하기.solution(strings, n)
 
     # 프로그래머스 레벨1 문자열내p와y의개수 문제
-    s = "pPoooyY"
-    문자열내p와y의개수.solution(s)
+    # s = "pPoooyY"
+    # 문자열내p와y의개수.solution(s)
+
+    # 프로그래머스 레벨1 서울에서 김서방 찾기기 문제
+    seoul = ["Jane", "Kim"]
+    서울에서김서방찾기.solution(seoul)
