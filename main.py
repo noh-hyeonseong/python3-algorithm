@@ -11,6 +11,7 @@ import 시저암호
 import 약수의합
 import 이상한문자만들기
 import 자릿수더하기
+import 자연수뒤집어배열로만들기
 import 폰켓몬
 import 예산
 import 음양더하기
@@ -130,3 +131,7 @@ if __name__ == '__main__':
     # 프로그래머스 레벨1 자릿수 더하기 문제
     # N = 123
     # 자릿수더하기.solution(N)
+
+    # 프로그래머스 레벨1 자연수 뒤집어 배열로 만들기 문제
+    n = 12345
+    자연수뒤집어배열로만들기.solution(n)
