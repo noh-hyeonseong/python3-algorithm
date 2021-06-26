@@ -8,6 +8,7 @@
 import 소수찾기
 import 수박수박수
 import 시저암호
+import 약수의합
 import 폰켓몬
 import 예산
 import 음양더하기
@@ -42,19 +43,19 @@ if __name__ == '__main__':
     # signs = [True,False,True]
     # 음양더하기.solution(absolutes, signs)
 
-    #프로그래머스 레벨1 포켓몬 문제
-    #poketmon_nums = [3,3,3,2,2,4]
-    #poketmon.solution(poketmon_nums)
+    # 프로그래머스 레벨1 포켓몬 문제
+    # poketmon_nums = [3,3,3,2,2,4]
+    # poketmon.solution(poketmon_nums)
 
     # 프로그래머스 레벨1 예산 문제
-    #budget_d = [1,3,2,5,4]
-    #budget_budget = 9
-    #budget.solution(budget_d,budget_budget)
+    # budget_d = [1,3,2,5,4]
+    # budget_budget = 9
+    # budget.solution(budget_d,budget_budget)
 
     # 프로그래머스 레벨1 로또의 최고 순위와 최저 순위 문제
-    #lottos = [44, 1, 0, 0, 31, 25]
-    #win_nums = [31, 10, 45, 1, 6, 19]
-    #로또순위.solution(lottos,win_nums)
+    # lottos = [44, 1, 0, 0, 31, 25]
+    # win_nums = [31, 10, 45, 1, 6, 19]
+    # 로또순위.solution(lottos,win_nums)
 
     # 프로그래머스 레벨1 신규 아이디 추천 문제
     # new_id = "..........."
@@ -67,7 +68,7 @@ if __name__ == '__main__':
 
     # 프로그래머스 레벨1 약수의 개수와 덧셈 문제
     # left = 13
-    #right = 17
+    # right = 17
     # 약수의개수와덧셈.solution(left, right)
 
     # 프로그래머스 레벨1 실패율 문제
@@ -106,12 +107,16 @@ if __name__ == '__main__':
     # 프로그래머스 레벨1 소수 찾기 문제
     # n = 10
     # 소수찾기.solution(n)
-    
+
     # 프로그래머스 레벨1 시저암호 찾기 문제
     # s = "AB"
     # n = 1
     # 시저암호.solution(s, n)
 
     # 프로그래머스 레벨1 수박수박수 문제
+    # n = 4
+    # 수박수박수.solution(n)
+
+    # 프로그래머스 레벨1 약수의합 문제
     n = 4
-    수박수박수.solution(n)
+    약수의합.solution(n)
