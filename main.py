@@ -9,6 +9,7 @@ import 소수찾기
 import 수박수박수
 import 시저암호
 import 약수의합
+import 이상한문자만들기
 import 폰켓몬
 import 예산
 import 음양더하기
@@ -118,5 +119,9 @@ if __name__ == '__main__':
     # 수박수박수.solution(n)
 
     # 프로그래머스 레벨1 약수의합 문제
-    n = 4
-    약수의합.solution(n)
+    # n = 4
+    # 약수의합.solution(n)
+
+    # 프로그래머스 레벨1 이상한 문자 만들기 문제
+    s = "try hello world"
+    이상한문자만들기.solution(s)
