@@ -18,6 +18,7 @@ import 제일작은수제거하기
 import 짝수와홀수
 import 최대공약수와최소공배수
 import 콜라츠추측
+import 평균구하기
 import 폰켓몬
 import 예산
 import 음양더하기
@@ -164,5 +165,9 @@ if __name__ == '__main__':
     # 최대공약수와최소공배수.solution(n, m)
 
     # 프로그래머스 레벨1 콜라츠 추측 문제
-    n = 626331
-    콜라츠추측.solution(n)
+    # n = 626331
+    # 콜라츠추측.solution(n)
+
+    # 프로그래머스 레벨1 평균 구하기 문제
+    arr = [1,2,3,4]
+    평균구하기.solution(arr)
