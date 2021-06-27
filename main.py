@@ -35,6 +35,7 @@ import 두정수사이의합
 import 문자열내마음대로정렬하기
 import 문자열내p와y의개수
 import 서울에서김서방찾기
+import 하샤드수
 
 if __name__ == '__main__':
     print("==========main start==========")
@@ -169,5 +170,9 @@ if __name__ == '__main__':
     # 콜라츠추측.solution(n)
 
     # 프로그래머스 레벨1 평균 구하기 문제
-    arr = [1,2,3,4]
-    평균구하기.solution(arr)
+    # arr = [1,2,3,4]
+    # 평균구하기.solution(arr)
+
+    # 프로그래머스 레벨1 하샤드 수 문제
+    arr = 10
+    하샤드수.solution(arr)
