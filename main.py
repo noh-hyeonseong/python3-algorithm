@@ -16,6 +16,7 @@ import 정수내림차순으로배치하기
 import 정수제곱근판별
 import 제일작은수제거하기
 import 짝수와홀수
+import 최대공약수와최소공배수
 import 폰켓몬
 import 예산
 import 음양더하기
@@ -153,6 +154,10 @@ if __name__ == '__main__':
     # 제일작은수제거하기.solution(arr)
 
     # 프로그래머스 레벨1 짝수와 홀수 문제
-    num = 3
-    짝수와홀수.solution(num)
+    # num = 3
+    # 짝수와홀수.solution(num)
 
+    # 프로그래머스 레벨1 최대공약수와 최소공배수 문제
+    n = 3
+    m = 12
+    최대공약수와최소공배수.solution(n, m)
