@@ -37,6 +37,7 @@ import 문자열내p와y의개수
 import 서울에서김서방찾기
 import 하샤드수
 import 핸드폰번호가리기
+import 행렬의덧셈
 
 if __name__ == '__main__':
     print("==========main start==========")
@@ -179,5 +180,10 @@ if __name__ == '__main__':
     # 하샤드수.solution(arr)
 
     # 프로그래머스 레벨1 핸드폰 번호 가리기 문제
-    phone_number = "01033334444"
-    핸드폰번호가리기.solution(phone_number)
+    # phone_number = "01033334444"
+    # 핸드폰번호가리기.solution(phone_number)
+
+    # 프로그래머스 레벨1 행렬의 덧셈 문제
+    arr1 = [[1,2],[2,3]]
+    arr2 = [[3,4],[5,6]]
+    행렬의덧셈.solution(arr1, arr2)
