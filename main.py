@@ -5,6 +5,7 @@
 # The function is expected to return a STRING_ARRAY.
 # The function accepts 2D_STRING_ARRAY arr as parameter.
 #
+import x만큼간격이있는n개의숫자
 import 소수찾기
 import 수박수박수
 import 시저암호
@@ -184,6 +185,11 @@ if __name__ == '__main__':
     # 핸드폰번호가리기.solution(phone_number)
 
     # 프로그래머스 레벨1 행렬의 덧셈 문제
-    arr1 = [[1,2],[2,3]]
-    arr2 = [[3,4],[5,6]]
-    행렬의덧셈.solution(arr1, arr2)
+    # arr1 = [[1,2],[2,3]]
+    # arr2 = [[3,4],[5,6]]
+    # 행렬의덧셈.solution(arr1, arr2)
+
+    # 프로그래머스 레벨1 x만큼 간격이 있는 n개의 숫자 문제
+    x = 2
+    n = 5
+    x만큼간격이있는n개의숫자.solution(x, n)
