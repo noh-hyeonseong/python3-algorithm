@@ -190,6 +190,6 @@ if __name__ == '__main__':
     # 행렬의덧셈.solution(arr1, arr2)
 
     # 프로그래머스 레벨1 x만큼 간격이 있는 n개의 숫자 문제
-    x = 2
-    n = 5
-    x만큼간격이있는n개의숫자.solution(x, n)
+    # x = 2
+    # n = 5
+    # x만큼간격이있는n개의숫자.solution(x, n)
